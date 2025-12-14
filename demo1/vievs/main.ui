@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>600</height>
+   </rect>
+  </property>
+
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+
+  <!-- central widget -->
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+
+      <!-- 外层 Tab 1 -->
+      <widget class="QWidget" name="tab_outer_1">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+
+       <layout class="QVBoxLayout" name="outerTabLayout">
+        <item>
+
+         <!-- ★ 内层 QTabWidget 的容器 QWidget（关键修复点） -->
+         <widget class="QWidget" name="innerTabContainer">
+          <layout class="QVBoxLayout" name="innerContainerLayout">
+           <item>
+            <widget class="QTabWidget" name="tabWidget_inner">
+
+             <!-- 内层 Tab 1 -->
+             <widget class="QWidget" name="tab_inner_1">
+              <attribute name="title">
+               <string>Tab 1</string>
+              </attribute>
+              <layout class="QVBoxLayout" name="innerTab1Layout"/>
+             </widget>
+
+             <!-- 内层 Tab 2 -->
+             <widget class="QWidget" name="tab_inner_2">
+              <attribute name="title">
+               <string>Tab 2</string>
+              </attribute>
+              <layout class="QVBoxLayout" name="innerTab2Layout"/>
+             </widget>
+
+            </widget>
+           </item>
+          </layout>
+         </widget>
+
+        </item>
+       </layout>
+      </widget>
+
+      <!-- 外层 Tab 2 -->
+      <widget class="QWidget" name="tab_outer_2">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="outerTab2Layout"/>
+      </widget>
+
+     </widget>
+    </item>
+   </layout>
+  </widget>
+
+  <!-- menubar -->
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>850</width>
+     <height>33</height>
+    </rect>
+   </property>
+
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>工具</string>
+    </property>
+   </widget>
+
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+   </widget>
+
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+
+  <widget class="QStatusBar" name="statusbar"/>
+
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>
