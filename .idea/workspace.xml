@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d6fbc8-183b-4d25-856a-bbee1df75a58" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/demo1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/vievs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e8d6fbc8-183b-4d25-856a-bbee1df75a58" name="更改" comment="first take">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "2085153158"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;2085153158&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/2085153158/pyqt_Demo.git",
-    "accountId": "41b11d06-86d0-4a0a-b1a5-b5395e08e6d0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/2085153158/pyqt_Demo.git&quot;,
+    &quot;accountId&quot;: &quot;41b11d06-86d0-4a0a-b1a5-b5395e08e6d0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -60,6 +55,7 @@
     "Python.mainwindow.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -188,17 +184,31 @@
       <option name="presentableId" value="Default" />
       <updated>1765683665665</updated>
       <workItem from="1765683667673" duration="382000" />
-      <workItem from="1765684071130" duration="18461000" />
+      <workItem from="1765684071130" duration="19206000" />
+      <workItem from="1766055872604" duration="35000" />
     </task>
+    <task id="LOCAL-00001" summary="first take">
+      <option name="closed" value="true" />
+      <created>1765709772973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765709772973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first take" />
+    <option name="LAST_COMMIT_MESSAGE" value="first take" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pyqt_Demo$main.coverage" NAME="main 覆盖结果" MODIFIED="1765708448278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo1" />
+    <SUITE FILE_PATH="coverage/pyqt_Demo$main.coverage" NAME="main 覆盖结果" MODIFIED="1765709702935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo1" />
     <SUITE FILE_PATH="coverage/pyqt_Demo$_utils.coverage" NAME="_utils 覆盖结果" MODIFIED="1765699421878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo1/qtmodern" />
     <SUITE FILE_PATH="coverage/pyqt_Demo$mainwindow.coverage" NAME="mainwindow 覆盖结果" MODIFIED="1765709528503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo1/examples" />
-    <SUITE FILE_PATH="coverage/pyqt_Demo$main_ui.coverage" NAME="main_ui 覆盖结果" MODIFIED="1765706442386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo1/vievs" />
+    <SUITE FILE_PATH="coverage/pyqt_Demo$main_ui.coverage" NAME="main_ui 覆盖结果" MODIFIED="1765709696723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo1/vievs" />
   </component>
 </project>
